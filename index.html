@@ -2,440 +2,672 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conference</title>
-    <!-- css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <!-- css // -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conference</title>
+  <!-- css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- css // -->
 </head>
 
 <body>
-    <div class="container mt-2 mb-1">
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-3"></div>
-            <div class="col-md-3"></div>
-            <div class="col-md-3">
-                <form class="d-flex">
-                    <input class="form-control  me-2" type="search" placeholder="Search Conferences"
-                        aria-label="Search">
-                    <button class="btn bg-light" type="submit"><i class="bi bi-search"></i></button>
+  <div class="container mt-2 mb-1">
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3"></div>
+      <div class="col-md-3"></div>
+      <div class="col-md-3">
+        <form class="d-flex">
+          <input class="form-control  me-2" type="search" placeholder="Search Conferences" aria-label="Search">
+          <button class="btn bg-light" type="submit"><i class="bi bi-search"></i></button>
 
-                </form>
-            </div>
-        </div>
+        </form>
+      </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Conference</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Disciplines</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Committess</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Publications
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Abstracts</a></li>
-                            <li><a class="dropdown-item" href="#">Periodicals</a></li>
-                            <li><a class="dropdown-item" href="#">Archive</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Support</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Register</a>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-    </nav>
-    <hr>
-
-
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Library</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Data</li>
-                    </ol>
-                </nav>
-
-                <img src="https://source.unsplash.com/user/erondu/1116x350" class="img-fluid">
-
-
-            </div>
-
-        </div>
-        <div class="row">
-            <div class="col-md-12 mb-2">
-                <div class="border p-2">
-                <p class="pt-3">Conference Code: <span class="fw-bold"> 21NO06ICASCE003</span></p>
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
-                            type="button" role="tab" aria-controls="home" aria-selected="true">About</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
-                            type="button" role="tab" aria-controls="profile" aria-selected="false">Venue</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
-                            type="button" role="tab" aria-controls="contact" aria-selected="false">Call For
-                            Papers</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#imp" type="button"
-                            role="tab" aria-controls="imp" aria-selected="true">Important Dates</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#Committess"
-                            type="button" role="tab" aria-controls="Committess"
-                            aria-selected="false">Committess</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#Registration"
-                            type="button" role="tab" aria-controls="Registration" aria-selected="false">Registration
-                            Fees</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#Program"
-                            type="button" role="tab" aria-controls="Program" aria-selected="true">Program</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#Conference"
-                            type="button" role="tab" aria-controls="Conference" aria-selected="false">Conference
-                            Photos</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#Flyer"
-                            type="button" role="tab" aria-controls="Flyer" aria-selected="false">Flyer</button>
-                    </li>
-                </ul>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"> Lorem
-                        ipsum dolor sit amet consectetur, adipisicing elit. Cumque, excepturi? Expedita eius deserunt
-                        eligendi optio aliquid harum eaque deleniti quidem ut necessitatibus? Officiis temporibus
-                        expedita repudiandae, laborum odio autem inventore.
-                        Incidunt eum quidem voluptas illum amet nulla sapiente corrupti omnis eligendi corporis quasi
-                        aut, cum adipisci? Ipsum iste odio architecto est itaque dicta doloribus quidem eveniet. Eveniet
-                        a deserunt hic.
-                        Magni suscipit aut est officia ipsa distinctio, minima debitis cum corporis sint obcaecati
-                        pariatur accusamus voluptatum officiis sunt sed harum, dolor nesciunt, possimus voluptatibus
-                        eaque architecto. Accusantium explicabo illo consequatur.
-                        Facilis cum culpa labore voluptas provident eligendi saepe! Illum, sit voluptates placeat
-                        ducimus quaerat dolorum tempora iste esse officiis accusantium, error voluptas quibusdam
-                        voluptatem facilis! Vel repellendus commodi maiores dicta?
-                    </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"> Lorem ipsum
-                        dolor sit amet consectetur, adipisicing elit. Cumque, excepturi? Expedita eius deserunt eligendi
-                        optio aliquid harum eaque deleniti quidem ut necessitatibus? Officiis temporibus expedita
-                        repudiandae, laborum odio autem inventore.
-                        Incidunt eum quidem voluptas illum amet nulla sapiente corrupti omnis eligendi corporis quasi
-                        aut, cum adipisci? Ipsum iste odio architecto est itaque dicta doloribus quidem eveniet. Eveniet
-                        a deserunt hic.
-                        Magni suscipit aut est officia ipsa distinctio, minima debitis cum corporis sint obcaecati
-                        pariatur accusamus voluptatum officiis sunt sed harum, dolor nesciunt, possimus voluptatibus
-                        eaque architecto. Accusantium explicabo illo consequatur.
-                        Facilis cum culpa labore voluptas provident eligendi saepe! Illum, sit voluptates placeat
-                        ducimus quaerat dolorum tempora iste esse officiis accusantium, error voluptas quibusdam
-                        voluptatem facilis! Vel repellendus commodi maiores dicta?</div>
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"> Lorem ipsum
-                        dolor sit amet consectetur, adipisicing elit. Cumque, excepturi? Expedita eius deserunt eligendi
-                        optio aliquid harum eaque deleniti quidem ut necessitatibus? Officiis temporibus expedita
-                        repudiandae, laborum odio autem inventore.
-                        Incidunt eum quidem voluptas illum amet nulla sapiente corrupti omnis eligendi corporis quasi
-                        aut, cum adipisci? Ipsum iste odio architecto est itaque dicta doloribus quidem eveniet. Eveniet
-                        a deserunt hic.
-                        Magni suscipit aut est officia ipsa distinctio, minima debitis cum corporis sint obcaecati
-                        pariatur accusamus voluptatum officiis sunt sed harum, dolor nesciunt, possimus voluptatibus
-                        eaque architecto. Accusantium explicabo illo consequatur.
-                        Facilis cum culpa labore voluptas provident eligendi saepe! Illum, sit voluptates placeat
-                        ducimus quaerat dolorum tempora iste esse officiis accusantium, error voluptas quibusdam
-                        voluptatem facilis! Vel repellendus commodi maiores dicta?</div>
-                    <div class="tab-pane fade" id="imp" role="tabpanel" aria-labelledby="imp-tab"> Lorem ipsum dolor sit
-                        amet consectetur, adipisicing elit. Cumque, excepturi? Expedita eius deserunt eligendi optio
-                        aliquid harum eaque deleniti quidem ut necessitatibus? Officiis temporibus expedita repudiandae,
-                        laborum odio autem inventore.
-                        Incidunt eum quidem voluptas illum amet nulla sapiente corrupti omnis eligendi corporis quasi
-                        aut, cum adipisci? Ipsum iste odio architecto est itaque dicta doloribus quidem eveniet. Eveniet
-                        a deserunt hic.
-                        Magni suscipit aut est officia ipsa distinctio, minima debitis cum corporis sint obcaecati
-                        pariatur accusamus voluptatum officiis sunt sed harum, dolor nesciunt, possimus voluptatibus
-                        eaque architecto. Accusantium explicabo illo consequatur.
-                        Facilis cum culpa labore voluptas provident eligendi saepe! Illum, sit voluptates placeat
-                        ducimus quaerat dolorum tempora iste esse officiis accusantium, error voluptas quibusdam
-                        voluptatem facilis! Vel repellendus commodi maiores dicta?
-                    </div>
-                    <div class="tab-pane fade" id="Committess" role="tabpanel" aria-labelledby="Committess-tab"> Lorem
-                        ipsum dolor sit amet consectetur, adipisicing elit. Cumque, excepturi? Expedita eius deserunt
-                        eligendi optio aliquid harum eaque deleniti quidem ut necessitatibus? Officiis temporibus
-                        expedita repudiandae, laborum odio autem inventore.
-                        Incidunt eum quidem voluptas illum amet nulla sapiente corrupti omnis eligendi corporis quasi
-                        aut, cum adipisci? Ipsum iste odio architecto est itaque dicta doloribus quidem eveniet. Eveniet
-                        a deserunt hic.
-                        Magni suscipit aut est officia ipsa distinctio, minima debitis cum corporis sint obcaecati
-                        pariatur accusamus voluptatum officiis sunt sed harum, dolor nesciunt, possimus voluptatibus
-                        eaque architecto. Accusantium explicabo illo consequatur.
-                        Facilis cum culpa labore voluptas provident eligendi saepe! Illum, sit voluptates placeat
-                        ducimus quaerat dolorum tempora iste esse officiis accusantium, error voluptas quibusdam
-                        voluptatem facilis! Vel repellendus commodi maiores dicta?</div>
-                    <div class="tab-pane fade" id="Registration" role="tabpanel" aria-labelledby="Registration-tab">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, excepturi? Expedita eius
-                        deserunt eligendi optio aliquid harum eaque deleniti quidem ut necessitatibus? Officiis
-                        temporibus expedita repudiandae, laborum odio autem inventore.
-                        Incidunt eum quidem voluptas illum amet nulla sapiente corrupti omnis eligendi corporis quasi
-                        aut, cum adipisci? Ipsum iste odio architecto est itaque dicta doloribus quidem eveniet. Eveniet
-                        a deserunt hic.
-                        Magni suscipit aut est officia ipsa distinctio, minima debitis cum corporis sint obcaecati
-                        pariatur accusamus voluptatum officiis sunt sed harum, dolor nesciunt, possimus voluptatibus
-                        eaque architecto. Accusantium explicabo illo consequatur.
-                        Facilis cum culpa labore voluptas provident eligendi saepe! Illum, sit voluptates placeat
-                        ducimus quaerat dolorum tempora iste esse officiis accusantium, error voluptas quibusdam
-                        voluptatem facilis! Vel repellendus commodi maiores dicta?</div>
-                    <div class="tab-pane fade" id="Program" role="tabpanel" aria-labelledby="Program-tab"> Lorem ipsum
-                        dolor sit amet consectetur, adipisicing elit. Cumque, excepturi? Expedita eius deserunt eligendi
-                        optio aliquid harum eaque deleniti quidem ut necessitatibus? Officiis temporibus expedita
-                        repudiandae, laborum odio autem inventore.
-                        Incidunt eum quidem voluptas illum amet nulla sapiente corrupti omnis eligendi corporis quasi
-                        aut, cum adipisci? Ipsum iste odio architecto est itaque dicta doloribus quidem eveniet. Eveniet
-                        a deserunt hic.
-                        Magni suscipit aut est officia ipsa distinctio, minima debitis cum corporis sint obcaecati
-                        pariatur accusamus voluptatum officiis sunt sed harum, dolor nesciunt, possimus voluptatibus
-                        eaque architecto. Accusantium explicabo illo consequatur.
-                        Facilis cum culpa labore voluptas provident eligendi saepe! Illum, sit voluptates placeat
-                        ducimus quaerat dolorum tempora iste esse officiis accusantium, error voluptas quibusdam
-                        voluptatem facilis! Vel repellendus commodi maiores dicta?
-                    </div>
-                    <div class="tab-pane fade" id="Conference" role="tabpanel" aria-labelledby="Conference-tab"> Lorem
-                        ipsum dolor sit amet consectetur, adipisicing elit. Cumque, excepturi? Expedita eius deserunt
-                        eligendi optio aliquid harum eaque deleniti quidem ut necessitatibus? Officiis temporibus
-                        expedita repudiandae, laborum odio autem inventore.
-                        Incidunt eum quidem voluptas illum amet nulla sapiente corrupti omnis eligendi corporis quasi
-                        aut, cum adipisci? Ipsum iste odio architecto est itaque dicta doloribus quidem eveniet. Eveniet
-                        a deserunt hic.
-                        Magni suscipit aut est officia ipsa distinctio, minima debitis cum corporis sint obcaecati
-                        pariatur accusamus voluptatum officiis sunt sed harum, dolor nesciunt, possimus voluptatibus
-                        eaque architecto. Accusantium explicabo illo consequatur.
-                        Facilis cum culpa labore voluptas provident eligendi saepe! Illum, sit voluptates placeat
-                        ducimus quaerat dolorum tempora iste esse officiis accusantium, error voluptas quibusdam
-                        voluptatem facilis! Vel repellendus commodi maiores dicta?</div>
-                    <div class="tab-pane fade" id="Flyer" role="tabpanel" aria-labelledby="Flyer-tab"> Lorem ipsum dolor
-                        sit amet consectetur, adipisicing elit. Cumque, excepturi? Expedita eius deserunt eligendi optio
-                        aliquid harum eaque deleniti quidem ut necessitatibus? Officiis temporibus expedita repudiandae,
-                        laborum odio autem inventore.
-                        Incidunt eum quidem voluptas illum amet nulla sapiente corrupti omnis eligendi corporis quasi
-                        aut, cum adipisci? Ipsum iste odio architecto est itaque dicta doloribus quidem eveniet. Eveniet
-                        a deserunt hic.
-                        Magni suscipit aut est officia ipsa distinctio, minima debitis cum corporis sint obcaecati
-                        pariatur accusamus voluptatum officiis sunt sed harum, dolor nesciunt, possimus voluptatibus
-                        eaque architecto. Accusantium explicabo illo consequatur.
-                        Facilis cum culpa labore voluptas provident eligendi saepe! Illum, sit voluptates placeat
-                        ducimus quaerat dolorum tempora iste esse officiis accusantium, error voluptas quibusdam
-                        voluptatem facilis! Vel repellendus commodi maiores dicta?</div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="row">
-            <div class="col-md-12 mt-2">
-                <p class="h4 text-center mb-3">
-                    Other Conferences
-                </p>
-                <div class="row row-cols-1 row-cols-md-2 g-4 mb-2">
-                    <div class="col">
-                      <div class="card">
-                        <img src="https://source.unsplash.com/user/erondu/200x100" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="https://source.unsplash.com/user/erondu/200x100" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="https://source.unsplash.com/user/erondu/200x100" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="https://source.unsplash.com/user/erondu/200x100" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                          <img src="https://source.unsplash.com/user/erondu/200x100" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-            </div>
-        </div>
-        <!-- Footer -->
-<footer class="text-muted mb-3 mt-3" style="background-color: #f5f5f5;">
-    <!-- Grid container -->
-    <div class="container p-4">
     
-  
-      <!-- Section: Links -->
-      <section class="">
-        <!--Grid row-->
-        <div class="row ">
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="fs-6">About</h5>
-  
-            <ul class="list-unstyled mb-0 ">
-              <li>
-                <a href="#!" class="text-muted text-decoration-none fs-6">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-muted text-decoration-none fs-6">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-muted text-decoration-none fs-6">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-muted text-decoration-none fs-6">Link 4</a>
-              </li>
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo.png" alt="" width="70"  class="d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Conference</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="disp.html">Disciplines</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="commit.html">Committess</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Publications
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <!-- <li><a class="dropdown-item" href="">Abstracts</a></li> -->
+              <!-- <li><a class="dropdown-item" href="#">Periodicals</a></li> -->
+              <li><a class="dropdown-item" href="https://rijbr.in/index.php/1/issue/archive">Archive</a></li>
             </ul>
-          </div>
-          <!--Grid column-->
-  
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="fs-6">Account</h5>
-  
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-muted text-decoration-none fs-6">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-muted text-decoration-none fs-6">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-muted text-decoration-none fs-6">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-muted text-decoration-none fs-6">Link 4</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-  
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="fs-6">Open Science</h5>
-  
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-muted text-decoration-none fs-6">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-muted text-decoration-none fs-6">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-muted text-decoration-none fs-6">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-muted text-decoration-none fs-6">Link 4</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-  
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="fs-6">Support</h5>
-  
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-muted text-decoration-none fs-6">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-muted text-decoration-none fs-6">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-muted text-decoration-none fs-6">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-muted text-decoration-none fs-6">Link 4</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-        </div>
-        <!--Grid row-->
-      </section>
-      <!-- Section: Links -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="support.html">Support</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Register</a>
+          </li>
+        </ul>
+
+      </div>
     </div>
-    <!-- Grid container -->
-    <hr>
-    <div class="text-center p-3" style="background-color: white;">
+  </nav>
+  <hr>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <!-- <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Library</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Data</li>
+          </ol>
+        </nav> -->
+
+        <img src="https://source.unsplash.com/user/erondu/1116x350" class="img-fluid">
+
+
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-12 mb-2">
+        <div class="border p-2">
+          <p class="pt-3">Conference Code: <span class="fw-bold"> 21NO06ICASCE003</span></p>
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                role="tab" aria-controls="home" aria-selected="true">About</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+                role="tab" aria-controls="profile" aria-selected="false">Venue</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
+                role="tab" aria-controls="contact" aria-selected="false">Call For
+                Papers</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#imp" type="button" role="tab"
+                aria-controls="imp" aria-selected="true">Important Dates</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#Committess" type="button"
+                role="tab" aria-controls="Committess" aria-selected="false">Committess</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#Registration"
+                type="button" role="tab" aria-controls="Registration" aria-selected="false">Registration
+                Fees</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#Program" type="button"
+                role="tab" aria-controls="Program" aria-selected="true">Program</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#Conference" type="button"
+                role="tab" aria-controls="Conference" aria-selected="false">Conference
+                Photos</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#Flyer" type="button"
+                role="tab" aria-controls="Flyer" aria-selected="false">Flyer</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <p class="h4 mt-2 fw-bold">
+                CONCEPT NOTE
+              </p>
+              <p>
+                The influx of sudden exogenous shock of the pandemic took the world
+                by storm. Every living entity got affected in some proportion, and as we
+                pen this down, countries are still struggling and have not been able to
+                cope with this menace. The challenges posed by this pandemic are
+                daunting. The situation posed is nothing less than a global
+                catastrophe. However, with situations like this, the natural character of
+                countries, governments, organizations, industries, and citizens are put
+                to the test. The time is ripe to review what we have been doing thus
+                far, and to put it this way - what kind of world order are we looking at
+                now?
+
+              </p>
+              <p>
+                The role of researchers in this situation has increased manifold, more so
+                when the public policies are drafted based on such researches. The
+                stakeholders should never forget the pain this pandemic caused the
+                world over. Policymakers and governments should ponder why this
+                happened, why policies fell short in tackling the spread, why there was
+                no mechanism to handle this crisis, why the administration delayed
+                actions, and what governments could have done better. Human beings
+                have always learned from their mistakes and prepared better for the
+                future. However, this time we failed collectively. SARS 2002-2004 was
+                an epidemic at best, but it did give us a lesson to be better prepared
+                for a future more lethal virus. Covid-19 has impacted the modern and
+                prosperous world like never before. When we thought the worst is over,
+                the second wave wreaked havoc across the globe, more acutely in
+                India.
+              </p>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <p class="mt-2">Digital Program consists of the e-proceedings book which is available online-only and
+                includes the
+                conference communications (proceedings abstracts and papers). Registered participants can access the
+                digitally available conference proceedings ( and certificates ) by visiting their profile pages</p>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+              <p class="mt-2">Topics that will be considered—for empirical, methodological, or
+                theoretical contributions—include, but are not limited to:</p>
+              <ul>
+                <li>Role of Leaders and Managers during the crisis</li>
+                <li>New World Order</li>
+                <li>New OD Interventions</li>
+                <li>Responsible Behavior of Industries</li>
+                <li>Role of Government</li>
+                <li>Telecommuting and Remote Working</li>
+                <li>Policy Initiatives</li>
+                <li>Rethinking Strategies for future</li>
+                <li>Sustainable Business Models</li>
+                <li>Role of ICT in remodeling the work environment</li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="imp" role="tabpanel" aria-labelledby="imp-tab">
+              <table class="table table-striped mt-4">
+
+                <!-- <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">First</th>
+                      <th scope="col">Last</th>
+                      <th scope="col">Handle</th>
+                    </tr>
+                  </thead> -->
+                <tbody>
+
+                  <tr>
+                    <td>SUBMISSION STAGE
+                    </td>
+                    <td>DEADLINE</td>
+                  </tr>
+                  <tr>
+                    <td>Decisions sent to authors
+                      for paper presentation
+                    </td>
+                    <td>01 September 2021</td>
+                  </tr>
+                  <tr>
+                    <td>Selected papers to be sent for
+                      Blind Peer Review for RIJBR
+                    </td>
+                    <td>
+                      17 September 2021
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Deadline for receipt of final
+                      manuscripts from invited authors</td>
+                    <td>
+                      01 December 2021
+                    </td>
+                  </tr>
+                  <tr>
+
+                    <td>Proposals submitted
+                      through RIJBR portal
+                    </td>
+                    <td>15 August 2021</td>
+                  </tr>
+                  <tr>
+                    <td>Conference</td>
+                    <td>01 - 02 Dec 2021
+                    </td>
+
+                  </tr>
+                  <tr>
+                    <td>
+                      Decisions sent to authors for
+                      manuscript revision
+
+                    </td>
+                    <td>
+                      31 October 2021
+                    </td>
+                  </tr>
+                </tbody>
+
+              </table>
+            </div>
+            <div class="tab-pane fade" id="Committess" role="tabpanel" aria-labelledby="Committess-tab">
+              <p class="text-center mt-3 h5 fw-bold">
+                PATRON
+              </p>
+              <p class="text-center h4 mt-3 fw-bold">
+                Prof. S.P. Aggarwal
+              </p>
+              <p class="text-center mb-0">Director, TLC and Principal,
+              </p>
+              <p class="text-center mt-0 mb-0"> Ramanujan College, University of Delhi</p>
+              <p class="text-center mt-0">
+                Editor-in-chief, RIJBR</p>
+
+
+              <p class="text-center mt-4 m-2 h5 fw-bold">
+                CONFERENCE CONVENOR
+              </p>
+
+              <div class="row">
+                <div class="col-md-6 text-center">
+                  <p class="text-center h4 mt-3 fw-bold">
+                    Dr. Vibhash Kumar
+                  </p>
+                  <p class="text-center mb-0">Managing Editor, RIJBR <br>
+                    Assistant Professor,<br>
+                    Ramanujan College
+                  </p>
+
+                </div>
+                <div class="col-md-6">
+                  <p class="text-center h4 mt-3 fw-bold">
+                    Dr. Nikhil Rajput
+                  </p>
+                  <p class="text-center">Assistant Director,<br>
+                    Teaching Learning Centre <br>
+                    Assistant Professor,<br>
+                    Ramanujan College
+                  </p>
+
+                </div>
+
+
+              </div>
+              <p class="text-center mt-4 m-2 h5 fw-bold">
+                ORGANISING SECRETARY
+              </p>
+
+              <div class="row">
+                <div class="col-md-6 text-center">
+                  <p class="text-center h4 mt-3 fw-bold">
+                    Mr. Vipin Rathi
+                  </p>
+                  <p class="text-center mb-0">Assistant Professor,<br>
+                    Ramanujan College
+                  </p>
+
+                </div>
+                <div class="col-md-6">
+                  <p class="text-center h4 mt-3 fw-bold">
+                    Ms. Parul Yadav
+                  </p>
+                  <p class="text-center">Assistant Professor,<br>
+                    Ramanujan College
+                  </p>
+
+                </div>
+              </div>
+              <p class="text-center mt-4 m-2 h5 fw-bold">
+                ORGANISING TEAM
+              </p>
+
+              <div class="row">
+                <div class="col-md-6 text-center">
+                  <p class="text-center h4 mt-3 fw-bold">
+                    Dr. Arnav Kumar
+                  </p>
+                  <p class="text-center mb-0">Assistant Professor,<br>
+                    Ramanujan College
+                  </p>
+
+                </div>
+                <div class="col-md-6">
+                  <p class="text-center h4 mt-3 fw-bold">
+                    Ms. Shipra Yadav
+                  </p>
+                  <p class="text-center">Assistant Professor,<br>
+                    Ramanujan College
+                  </p>
+
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="Registration" role="tabpanel" aria-labelledby="Registration-tab">
+              <p class="fw-bold text-center p-3">
+                No Details
+              </p>
+            </div>
+            <div class="tab-pane fade p-2" id="Program" role="tabpanel" aria-labelledby="Program-tab">
+              <div class="mt-4">
+                <p class="fw-bold h5">
+                  Leadership and the Pandemic
+                </p>
+                <p>
+                  Let us now assess the role of leadership during such an unprecedented
+                  crisis. Every leadership theory postulates envisioning as one of the most
+                  critical traits of a leader. Then why great countries assuming world
+                  leadership roles like the US, Italy, Germany, Brazil, and many other
+                  European nations did not envision the real threat of the pandemic. The
+                  part of the World Health Organisation (WHO) also comes under the lens.
+
+                </p>
+                <p>
+                  There is a widespread belief that if governments took real-time and
+                  quick corrective steps, the citizens could have been spared the brunt.
+                  As researchers, let us find out empirically and qualitatively what the
+                  leaders should have done to avoid or tackle this situation better. Is this
+                  the time to review the theories on crisis management, contingency
+                  leadership and construct better plausible theories that could answer
+                  the questions that this pandemic posed?
+                </p>
+              </div>
+              <div class="mt-4">
+                <p class="fw-bold h5">
+                  Organizational Response and Corporate Leadership
+                </p>
+                <p>
+                  So much so is the case with world leaders; corporate leadership and
+                  strategy formulation also comes under investigation. The organizations
+                  and industries indeed came to an abrupt closure. None of the
+                  corporate organizations had prepared for this contingency. Therefore
+                  all the business entities in general and industries, manufacturing units,
+                  hospitality sector, airlines, in particular, reported huge losses and will
+                  continue to bear more till things get normalized. A substantial impact
+                  on economies at the macro level and financial systems of organizations
+                  at the micro-level has been researched and reported by various
+                  stakeholders. The consequences of the control measures like lockdowns
+                  imposed globally have been devastating for all businesses (Industries,
+                  Services, and Primary sectors), impacting their demand, production,
+                  supply chains & logistics, liquidity, and even survival. It is difficult for
+                  organizations to meet even their fixed costs in such a scenario, albeit
+                  variable expenses like salary and compensation look like a distant
+                  reality. So what lessons have the organizations learned from this. The
+                  researchers can work on the quantum and maintain additional reserves
+                  to ward off this kind of emergency.
+
+
+                </p>
+
+              </div>
+              <div class="mt-4">
+                <p class="fw-bold h5">
+                  Employee Wellbeing during the Pandemic
+                </p>
+                <p>
+                  There is no denying that human resources are the essential constituent
+                  of any economic or developmental work. Off late, the organizations
+                  have undeniably put a lot of work pressure on their employees in the
+                  pretext of excellence.Long working hours, non-commensurate pay
+                  packages, overbearing bosses, power and politics issues, etc., have taken
+                  a toll on an employee's overall health and wellbeing. In these trying
+                  times, however, the organizations are laying off or reducing the pay
+                  packages of their employees. Thus, this is ironic, and organizations
+                  should rethink their roles. The concept of benevolent leadership comes
+                  to the fore when the world is reeling under unprecedented miseries.
+                  The researchers can study the role of organizations, leaders, and HR
+                  managers in augmenting the wellbeing of the employees.
+
+
+
+                </p>
+
+              </div>
+              <div class="mt-4">
+                <p class="fw-bold h5">
+                  OD Interventions during the Pandemic
+                </p>
+                <p>
+                  Popular management theories postulate that change is an essential
+                  dimension of a work organization. Some changes are reactionary and
+                  others proactive. The pandemic asserts that rethinking strategies and
+                  bringing some significant organizational development (OD)
+                  interventions would be required to guide organizations to come out of
+                  the after-effects. For instance, long commute time should be a thing of
+                  the past, when ICT is helping us bridge geographical distances.
+                  Therefore, work from home should be encouraged by those
+                  organizations that can do away with traditional work methods.
+                  Telecommuting saves the precious time of the employees and
+                  consistently contributes to reducing the carbon footprints of
+                  individuals. The researchers should now focus on theorizing novel OD
+                  interventions in all spheres of work-life, keeping in mind the damages
+                  already done.
+
+
+
+                </p>
+                <p>
+                  As per projections by leading economists and international
+                  organizations like IMF, the world economy is bound to go into the most
+                  severe recession in 2020 since the Great Depression. Financial
+                  markets, remarkably the stock market, have crashed globally, reflecting
+                  the underlying pessimistic investor sentiment. Chances of revival and
+                  resumption are entirely contingent upon the future trajectory and
+                  severity of the pandemic. The situation has presented numerous
+                  research issues before academicians, policymakers, and practitioners
+                  alike. They can assess the economic and financial impact in the short,
+                  medium, and long term and recommend developing sustainable
+                  business models and strategies for the future.
+                </p>
+
+              </div>
+            </div>
+            <div class="tab-pane fade" id="Conference" role="tabpanel" aria-labelledby="Conference-tab">
+              <p class="mt-3 text-center fw-bold">
+                No Image Found
+              </p>
+            </div>
+            <div class="tab-pane fade" id="Flyer" role="tabpanel" aria-labelledby="Flyer-tab"> <iframe class="mt-4"
+                src="Mgmt_conferernce.pdf" width="100%"
+                height="500px">
+              </iframe></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- <div class="row">
+      <div class="col-md-12 mt-2">
+        <p class="h4 text-center mb-3">
+          Other Conferences
+        </p>
+        <div class="row row-cols-1 row-cols-md-2 g-4 mb-2">
+          <div class="col">
+            <div class="card">
+              <img src="https://source.unsplash.com/user/erondu/200x100" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                  additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://source.unsplash.com/user/erondu/200x100" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                  additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://source.unsplash.com/user/erondu/200x100" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                  additional
+                  content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://source.unsplash.com/user/erondu/200x100" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                  additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://source.unsplash.com/user/erondu/200x100" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                  additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Footer -->
+    <footer class="text-muted mb-3 mt-3" style="background-color: #f5f5f5;">
+      <!-- Grid container -->
+      <div class="container p-4">
+
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row ">
+            <!--Grid column-->
+            <div class="col-lg-4 text-center col-md-6 mb-4 mb-md-0">
+              <h5 class="fs-6">About</h5>
+
+              <!-- <ul class="list-unstyled mb-0 ">
+                <li>
+                  <a href="#!" class="text-muted text-decoration-none fs-6">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-muted text-decoration-none fs-6">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-muted text-decoration-none fs-6">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-muted text-decoration-none fs-6">Link 4</a>
+                </li>
+              </ul> -->
+              <img src="img/logo.png" width="50px" alt="">
+              <p>Ramanujan College </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <!-- <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="fs-6">Account</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-muted text-decoration-none fs-6">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-muted text-decoration-none fs-6">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-muted text-decoration-none fs-6">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-muted text-decoration-none fs-6">Link 4</a>
+                </li>
+              </ul>
+            </div> -->
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 text-center col-md-6 mb-4 mb-md-0">
+              <h5 class="fs-6">contact us</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-muted text-decoration-none fs-6">Ramanujan College</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-muted text-decoration-none fs-6">University Of Delhi</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-muted text-decoration-none fs-6">Kalkaji, New Delhi 110019</a>
+                </li>
+                <!-- <li>
+                  <a href="#!" class="text-muted text-decoration-none fs-6">Link 4</a>
+                </li> -->
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 text-center col-md-6 mb-4 mb-md-0">
+              <h5 class="fs-6">Scoial Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="https://www.facebook.com/Ramanujansocialmedia/" target="_blank" class="text-muted text-decoration-none fs-6">Facebook</a>
+                </li>
+                <li>
+                  <a href="https://instagram.com/ramanujandu?igshid=rhl8hmjb1kri" target="_blank" class="text-muted text-decoration-none fs-6">Instagram</a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/ramanujan-college-university-of-delhi-0baa681b2" target="_blank" class="text-muted text-decoration-none fs-6">Linkedin</a>
+                </li>
+                <!-- <li>
+                  <a href="#!" class="text-muted text-decoration-none fs-6">Link 4</a>
+                </li> -->
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+      <hr>
+      <div class="text-center p-3" style="background-color: white;">
         © 2021 Copyright:
         <a class="text-dark text-decoration-none" href="">Conference</a>
       </div>
-  
-  </footer>
-  <!-- Footer -->
-    </div>
-    
+
+    </footer>
+    <!-- Footer -->
+  </div>
+
 </body>
 <!-- js -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-    crossorigin="anonymous"></script>
+  integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-    crossorigin="anonymous"></script>
+  integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 <!-- js// -->
 
 </html>
